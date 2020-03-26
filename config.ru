@@ -2,6 +2,8 @@
 # https://github.com/mperham/sidekiq/wiki/Monitoring#standalone-with-basic-auth
 
 require 'sidekiq'
+require 'sidekiq-pro'
+require 'sidekiq-cron'
 
 Sidekiq.configure_client do |config|
   config.redis = {
@@ -11,6 +13,8 @@ Sidekiq.configure_client do |config|
 end
 
 require 'sidekiq/web'
+require 'sidekiq/pro/web'
+require 'sidekiq/cron/web'
 
 map '/' do
   if ENV['USERNAME'] && ENV['PASSWORD']

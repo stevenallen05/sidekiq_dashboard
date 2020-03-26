@@ -8,7 +8,7 @@ Standalone application for the [Sidekiq][2] dashboard
 
 ## Deploy on Heroku
 
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/honeypotio/sidekiq_dashboard)
+[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/stevenallen05/sidekiq_dashboard)
 
 Local development
 -----------------
